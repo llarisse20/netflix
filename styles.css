@@ -1,0 +1,176 @@
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+ /*body do site*/
+
+body {
+    background-color: #0e0c0c;
+    font-family:Arial, Helvetica, sans-serif;
+    color: grey;
+    text-align: center;
+    font-size: medium;
+    display: flexbox;
+    
+
+    
+    
+}
+   
+
+  
+
+/* H1 (TÍTULO)abaixo está os seguintes codigos que usei */
+
+    h1 {
+    color: red;
+    font-size: 40px;
+
+}
+  
+    h1 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+ }
+
+
+ /* h2 (segundo) titulo da pagina */
+
+h2 {
+    margin: 30px;
+    color: white;
+    font-size: 40px;
+    
+}
+  
+
+   
+
+
+/*Abaixo estao as tangs flexbox */
+
+   
+ 
+ 
+ 
+   /*FLEXBOX QUADRADO*/
+   
+.container {
+   display:flex; 
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+
+
+ /*QUADRADO FILHO*/
+
+ .child {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 15px;
+    width: 124px;
+    height: 124px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+   
+ 
+
+/*FLEXBOX DA BARRA DE GERENCIAR PERFIL*/
+
+.flex {
+   
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.item {
+    text-align: center; 
+    color: gray; 
+    margin: 3em 0 1em;
+    padding: 0.3em 2.5em;
+    width: 250px;
+    height: 35px;
+    background-color: black;
+    border: 1px solid grey;
+    cursor: pointer;
+    display: block;
+
+}
+
+
+
+
+/*pagina reponsiva*/
+
+
+   @media screen and (max-width: 768px) {
+     body {
+        background-color: black;
+     }
+   }
+
+   @media screen and (max-width: 600px) {
+     body {
+        background-color: black;
+     }
+   }
+
+
+  
+      
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
